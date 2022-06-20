@@ -33,6 +33,23 @@
             height: 60px;
         }
     }
+    .carousel {
+        .tns-item {
+            img {
+                max-width: 500px;
+            }
+        }
+        .tns-outer {
+            max-width: 550px;
+            margin: 0 auto;
+        }
+        &__prev {
+            left: -5px;
+        }
+        &__next {
+            right: -5px;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -75,6 +92,16 @@
         }
         &__descr {
             font-size: 11px;
+        }
+    }
+    .carousel {
+        .tns-item {
+            img {
+                max-width: 460px;
+            }
+        }
+        &__prev, &__next {
+            display: none;
         }
     }
 
@@ -175,6 +202,17 @@
             &:nth-child(3) {
                 margin-bottom: 15px;
             }
+        }
+    }
+    .carousel {
+        .tns-item {
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+        &__prev, &__next {
+            display: none;
         }
     }
 }

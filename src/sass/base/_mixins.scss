@@ -1,0 +1,11 @@
+@mixin carousel__arrow {
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY((-50%));
+    img {
+        height: 51px;
+        width: 30px;
+    }
+}

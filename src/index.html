@@ -7,10 +7,11 @@
     <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -50,9 +51,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="advantages">
+    <section class="advantages">
         <div class="container">
             <h2 class="title">наши преимущества</h2>
             <div class="advantages__wrapper">
@@ -73,9 +74,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="consultation">
+    <section class="consultation">
         <div class="container">
             <h2 class="title title_left">Получите бесплатную консультацию<br>по подбору пульсометра </h2>
             <div class="consultation__descr">Просто заполните форму заявки<br>и мы перезвоним вам в течении 10 минут</div>
@@ -88,6 +89,22 @@
                 <button class="button button_submit">заказать консультацию</button>
             </form>
         </div>    
-    </div>
+    </section>
+
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__wrapper">
+                <div class="carousel__slide"><img src="img/slide_1.png" alt="slide_1"></div>
+                <div class="carousel__slide"><img src="img/slide_2.png" alt="slide_2"></div>
+                <div class="carousel__slide"><img src="img/slide_3.png" alt="slide_3"></div>
+            </div>
+            <button type="button" class="carousel__prev"><img src="icons/arrow_prev.png"></button>
+            <button type="button" class="carousel__next"><img src="icons/arrow_next.png"></button>
+        </div>
+       
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
