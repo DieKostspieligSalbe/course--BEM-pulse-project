@@ -1,0 +1,51 @@
+.footer {
+    position: relative;
+    height: 630px;
+    &__map {
+        height: 100%;
+    }
+    &__info {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 460px;
+        height: 270px;
+        background-color: $main-color;
+        padding: 50px 53px 56px 53px;
+    }
+    &__address {
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 36px;
+        line-height: 20px;
+    }
+    &__phone {
+        display: block;
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFFFFF;
+        line-height: 20px;
+        margin-bottom: 36px;
+        text-align: center;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+            color: #FFFFFF;
+        }
+    }
+    &__social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 27px;
+        &-item {
+            transition: 0.3s all;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+}

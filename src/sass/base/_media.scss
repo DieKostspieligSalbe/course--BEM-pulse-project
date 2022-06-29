@@ -257,4 +257,20 @@
             gap: 30px;
         }
     }
+    .footer {
+        &__info {
+            width: 80%;
+            height: 240px; 
+            margin-bottom: 25px;
+        }
+        &__address {
+            font-size: 15px;
+            line-height: 15px;
+            margin-bottom: 25px;
+        }
+        &__phone {
+            font-size: 17px;
+            line-height: 17px;
+        }
+    }
 }

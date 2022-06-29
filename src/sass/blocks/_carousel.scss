@@ -8,6 +8,11 @@
     &__prev {
         @include carousel__arrow;
         left: -66px;
+        img {
+            &:hover {
+                transform: translateX(-10px);
+            }
+        }
     }
     &__next {
         @include carousel__arrow;
