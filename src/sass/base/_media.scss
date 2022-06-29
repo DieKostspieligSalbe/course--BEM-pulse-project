@@ -104,12 +104,40 @@
             display: none;
         }
     }
+    .catalog {
+        &__tab {
+            font-size: 15px;
+        }
+    }
+    .reviews {
+        &__block {
+            flex-direction: column;
+            gap: 40px;
+        }
+        &__picture {
+            margin: 0 auto;
+        }
+        &__name {
+            text-align: center;
+        }
+        &__marathons {
+            text-align: center;
+        }
+        &__review {
+            font-size: 14px;
+            line-height: 19px;
+            text-align: center;
+        }
+    }
 
 }
 
 @media (max-width: 575px) {
     .container {
         max-width: 310px;
+    }
+    .mobile-containerless {
+        max-width: 90%;
     }
     .xs_disabled {
         display: none;
@@ -213,6 +241,20 @@
         }
         &__prev, &__next {
             display: none;
+        }
+    }
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+    .reviews {
+        &__wrapper {
+            gap: 70px;
+        }
+        &__block {
+            gap: 30px;
         }
     }
 }
