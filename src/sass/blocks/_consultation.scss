@@ -8,4 +8,14 @@
         color: white;
         text-align: left;
     }
+    label.error {
+        margin-bottom: 10px;
+        font-weight: 300;
+        font-size: 14px;
+        transform: translateY(-8px);
+        color: rgb(206, 206, 206);
+    }
+    input.error {
+        border: 1px solid $main-color;
+    }
 }

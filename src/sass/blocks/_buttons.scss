@@ -8,8 +8,9 @@
     font-size: 12px;
     color: white;
     text-transform: uppercase;
+    transition: 0.3s all;
     &:hover {
-        background: #f10606;
+        background: $main-active;
     }
     &_main {
         margin-top: 67px;
