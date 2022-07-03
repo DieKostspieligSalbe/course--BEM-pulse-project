@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <link rel="stylesheet" href="css/animate.min.css"/>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -63,7 +64,7 @@
                     <div class="advantages__descr">Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
                 </div>
                 <div class="advantages__block">
-                    <img src="icons/heart_icon.png" alt="heart">
+                    <img class="animated__icon" src="icons/heart_icon.png" alt="heart">
                     <div class="advantages__title">Заботимся о здоровье</div>
                     <div class="advantages__descr">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
                 </div>
@@ -386,7 +387,7 @@
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
             <div class="reviews__wrapper">
-                <div class="reviews__block">
+                <div class="reviews__block" data-wow-duration="2s">
                     <div class="reviews__picture">
                         <img src="img/photo_1.png" alt="user_photo">
                     </div>
@@ -398,7 +399,7 @@
                     </div>
                 </div>
 
-                <div class="reviews__block">
+                <div class="reviews__block" data-wow-duration="2s">
                     <div class="reviews__picture">
                         <img src="img/photo_2.png" alt="user_photo">
                     </div>
@@ -409,7 +410,7 @@
                     </div>
                 </div>
 
-                <div class="reviews__block">
+                <div class="reviews__block" data-wow-duration="2s">
                     <div class="reviews__picture">
                         <img src="img/photo_3.png" alt="user_photo">
                     </div>
@@ -482,10 +483,15 @@
 
     </div>
 
+    <a class="pageup" href="#up"><i class="fa-solid fa-angles-up fa-3x"></i></a>
+    <!-- stored in buttons -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <script src="https://kit.fontawesome.com/32d95f43bb.js" crossorigin="anonymous"></script>
     <script src="js/jquery.validate.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

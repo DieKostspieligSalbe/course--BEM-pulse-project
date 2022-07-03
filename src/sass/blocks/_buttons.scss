@@ -31,3 +31,18 @@
         font-size: 14px;
     }
 }
+
+.pageup {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    i {
+        color: $main-color;
+        transition: 0.3s all;
+        &:hover {
+            color: $main-active;
+            transform: translateY(-20px);
+        }
+    }
+}

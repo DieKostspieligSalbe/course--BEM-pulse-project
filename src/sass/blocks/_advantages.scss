@@ -39,3 +39,10 @@
         }
     }
 }
+
+.animated__icon {
+    animation: heartbeat 1s infinite paused;
+    &:hover {
+        animation-play-state: running;
+    }
+}
